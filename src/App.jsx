@@ -71,6 +71,12 @@ function App() {
       </h1>
       <hr />
       <div
+        className="flex flex-1 border-2 rounded-md justify-center border-dashed bg-fuchsia-300 w-full h-40 mt-10 items-center"
+        id="display"
+      >
+        <span className="text-4xl text-gray-900 hover:text-white cursor-none">{display}</span>
+      </div>
+      <div
         id="calculator"
         className="border-dotted rounded-lg border-2 border-slate-50 box-content inline-block m-4 p-16"
       >
@@ -214,12 +220,7 @@ function App() {
         </div>
       </div>
       <hr />
-      <div
-        className="flex flex-1 border-2 rounded-md justify-center border-dashed bg-fuchsia-300 w-full h-40 mt-10 items-center"
-        id="display"
-      >
-        <span className="text-4xl text-gray-900 hover:text-white cursor-none">{display}</span>
-      </div>
+     
 
       <footer className="flex flex-1 items-center justify-center gap-8 mt-20">
         <span>
