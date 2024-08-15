@@ -6,6 +6,13 @@ export default {
   ],
   theme: {
     extend: {},
+    colors:{
+      background:"#32373d",
+      clearbtn:"#d64218",
+      btn:"#605d5c",
+      operatorsbtn : "#a5abaf",
+      
+    }
   },
   screens: {
     'sm': '340px',  // Pequeñas pantallas (móviles)

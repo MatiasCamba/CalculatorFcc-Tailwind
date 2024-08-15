@@ -76,7 +76,7 @@ function App() {
       >
         <div className="inline-grid grid-cols-4 gap-2 justify-center">
           <button
-            className="btn btn-circle cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
+            className="btn btn-circle bg-btn cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
             id="seven"
             value="7"
             onClick={handleClick}
@@ -84,7 +84,7 @@ function App() {
             7
           </button>
           <button
-            className="btn btn-circle cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
+            className="btn btn-circle bg-btn cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
             id="eight"
             value="8"
             onClick={handleClick}
@@ -92,7 +92,7 @@ function App() {
             8
           </button>
           <button
-            className="btn btn-circle cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
+            className="btn btn-circle bg-btn cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
             id="nine"
             value="9"
             onClick={handleClick}
@@ -100,7 +100,7 @@ function App() {
             9
           </button>
           <button
-            className="btn btn-circle cursor-pointer w-15 box-content bg-slate-200 text-base text-center font-bold text-black hover:text-white"
+            className="btn btn-circle bg-operatorsbtn text-background cursor-pointer w-15 box-content bg-slate-200 text-base text-center font-bold text-black hover:text-white"
             id="divide"
             value="/"
             onClick={handleClick}
@@ -108,7 +108,7 @@ function App() {
             /
           </button>
           <button
-            className="btn btn-circle cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
+            className="btn btn-circle bg-btn cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
             id="four"
             value="4"
             onClick={handleClick}
@@ -116,7 +116,7 @@ function App() {
             4
           </button>
           <button
-            className="btn btn-circle cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
+            className="btn btn-circle bg-btn cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
             id="five"
             value="5"
             onClick={handleClick}
@@ -124,7 +124,7 @@ function App() {
             5
           </button>
           <button
-            className="btn btn-circle cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
+            className="btn btn-circle bg-btn cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
             id="six"
             value="6"
             onClick={handleClick}
@@ -132,7 +132,7 @@ function App() {
             6
           </button>
           <button
-            className="btn btn-circle cursor-pointer w-15 box-content bg-slate-200 text-base text-center font-bold text-black hover:text-white"
+            className="btn btn-circle text-background bg-operatorsbtn cursor-pointer w-15 box-content bg-slate-200 text-base text-center font-bold text-black hover:text-white"
             id="multiply"
             onClick={handleClick}
             value="*"
@@ -140,7 +140,7 @@ function App() {
             *
           </button>
           <button
-            className="btn btn-circle cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
+            className="btn btn-circle bg-btn cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
             id="one"
             value="1"
             onClick={handleClick}
@@ -148,7 +148,7 @@ function App() {
             1
           </button>
           <button
-            className="btn btn-circle cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
+            className="btn btn-circle bg-btn cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
             id="two"
             value="2"
             onClick={handleClick}
@@ -156,7 +156,7 @@ function App() {
             2
           </button>
           <button
-            className="btn btn-circle cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
+            className="btn btn-circle bg-btn cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
             id="three"
             value="3"
             onClick={handleClick}
@@ -164,7 +164,7 @@ function App() {
             3
           </button>
           <button
-            className="btn btn-circle cursor-pointer w-15 box-content bg-slate-200 text-base text-center font-bold text-black hover:text-white"
+            className="btn btn-circle bg-operatorsbtn text-background cursor-pointer w-15 box-content bg-slate-200 text-base text-center font-bold text-black hover:text-white"
             id="subtract"
             value="-"
             onClick={handleClick}
@@ -172,7 +172,7 @@ function App() {
             -
           </button>
           <button
-            className="btn btn-circle cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
+            className="btn btn-circle bg-btn cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
             id="zero"
             value="0"
             onClick={handleClick}
@@ -180,7 +180,7 @@ function App() {
             0
           </button>
           <button
-            className="btn btn-circle cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
+            className="btn btn-circle bg-operatorsbtn  text-background cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
             id="decimal"
             onClick={handleClick}
             value="."
@@ -188,7 +188,7 @@ function App() {
             .
           </button>
           <button
-            className="btn btn-circle cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
+            className="btn btn-circle bg-operatorsbtn text-background cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
             id="equals"
             onClick={handleClick}
             value="="
@@ -196,7 +196,7 @@ function App() {
             =
           </button>
           <button
-            className="btn btn-circle cursor-pointer w-15 box-content bg-slate-200 text-base text-center font-bold text-black hover:text-white"
+            className="btn btn-circle bg-operatorsbtn text-background cursor-pointer w-15 box-content bg-slate-200 text-base text-center font-bold text-black hover:text-white"
             id="add"
             value="+"
             onClick={handleClick}
@@ -204,7 +204,7 @@ function App() {
             +
           </button>
           <button
-            className="btn btn-circle cursor-pointer bg-red-500 w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
+            className="btn btn-circle cursor-pointer bg-clearbtn w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
             id="clear"
             value="Clear"
             onClick={handleClick}
