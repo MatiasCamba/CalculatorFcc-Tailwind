@@ -71,15 +71,18 @@ function App() {
       </h1>
       <hr />
       <div
-        className="flex flex-1 border-2 rounded-md justify-center border-dashed bg-fuchsia-300 w-full h-40 mt-10 items-center"
+        className="flex flex-1 justify-center border-dashed bg-fuchsia-300 w-full h-40 mt-10 items-center"
         id="display"
       >
-        <span className="text-4xl text-gray-900 hover:text-white cursor-none">{display}</span>
       </div>
       <div
         id="calculator"
-        className="border-dotted rounded-lg border-2 border-slate-50 box-content inline-block m-4 p-16"
+        className="rounded-lg border-2 border-slate-50 box-content inline-block m-4 px-3 py-3 mb-40 "
       >
+        <span className="text-4xl text-gray-900 hover:text-white cursor-none mb-10 flex flex-col items-end mr-3">
+          {display}
+        </span>
+        <hr className="mb-4"/>
         <div className="inline-grid grid-cols-4 gap-2 justify-center">
           <button
             className="btn btn-circle bg-btn cursor-pointer w-15 box-content font-semibold text-base hover:bg-slate-500 text-white"
@@ -220,7 +223,6 @@ function App() {
         </div>
       </div>
       <hr />
-     
 
       <footer className="flex flex-1 items-center justify-center gap-8 mt-20">
         <span>
